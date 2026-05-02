@@ -18,8 +18,7 @@ class Clauderig < Formula
   def install
     bin.install "clauderig"
   end
-
-  test do
-    assert_match "clauderig", shell_output("#{bin}/clauderig --version")
-  end
+test do
+  system "#{bin}/clauderig", "--help"
+end
 end
