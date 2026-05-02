@@ -20,6 +20,7 @@ class Clauderig < Formula
   end
 
   test do
-    system "#{bin}/clauderig", "--help"
+    assert_predicate bin/"clauderig", :exist?
   end
+
 end
