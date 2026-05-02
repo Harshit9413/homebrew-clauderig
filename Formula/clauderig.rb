@@ -1,4 +1,4 @@
-class Mytool < Formula
+class clauderig < Formula
   desc "My awesome CLI tool"
   homepage "https://github.com/harshit9413/clauderig"
   version "1.0.0"
