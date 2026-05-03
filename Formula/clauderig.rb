@@ -6,7 +6,7 @@ class Clauderig < Formula
   on_macos do                                                                                                                                                                                           
     if Hardware::CPU.arm?                                 
       url "https://github.com/harshit9413/clauderig/releases/download/v#{version}/clauderig_#{version}_macos_arm64.zip"                                                                                 
-      sha256 "REPLACE_WITH_SHA256_ARM64"                                                                                                                                                                
+      sha256 "55b07eff3d588a374639e4761e35c7dde3a08d8c481a703e42eb6faf51f949bd"                                                                                                                                                                
     else                                                                                                                                                                                                
       url "https://github.com/harshit9413/clauderig/releases/download/v#{version}/clauderig_#{version}_macos_x86_64.zip"                                                                                
       sha256 "REPLACE_WITH_SHA256_X86"                                                                                                                                                                  
