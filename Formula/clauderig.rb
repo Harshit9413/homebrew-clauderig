@@ -1,15 +1,15 @@
 class Clauderig < Formula                                                                                                                                                                               
   desc "Bootstrap a production-grade .claude/ setup into any project, instantly."
   homepage "https://github.com/harshit9413/clauderig"
-  version "1.0.10"                                                                                                                                                                                       
+  version "1.0.11"                                                                                                                                                                                       
 
   on_macos do                                                                                                                                                                                           
     if Hardware::CPU.arm?                                 
       url "https://github.com/harshit9413/clauderig/releases/download/v#{version}/clauderig_#{version}_macos_arm64.zip"                                                                                 
-      sha256 "822c5dc242b49d2d3844a92dd6f86050047181bfa34765e2c9dae7cfa5a7dc4c"                                                                                                                                                                
+      sha256 "67fce4e1c9844e3151ae76f423ac346a529fb47b4662942a3724edd31a7bba9c"                                                                                                                                                                
     else                                                                                                                                                                                                
       url "https://github.com/harshit9413/clauderig/releases/download/v#{version}/clauderig_#{version}_macos_x86_64.zip"                                                                                
-      sha256 "822c5dc242b49d2d3844a92dd6f86050047181bfa34765e2c9dae7cfa5a7dc4c"                                                                                                                                                                  
+      sha256 "67fce4e1c9844e3151ae76f423ac346a529fb47b4662942a3724edd31a7bba9c"                                                                                                                                                                  
     end
   end                                                                                                                                                                                                   
                                                           
