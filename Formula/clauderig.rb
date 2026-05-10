@@ -6,10 +6,10 @@ class Clauderig < Formula
   on_macos do                                                                                                                                                                                           
     if Hardware::CPU.arm?                                 
       url "https://github.com/harshit9413/clauderig/releases/download/v#{version}/clauderig_#{version}_macos_arm64.zip"                                                                                 
-      sha256 "67fce4e1c9844e3151ae76f423ac346a529fb47b4662942a3724edd31a7bba9c"                                                                                                                                                                
+      sha256 "42a452531a71dd755bc1f236ffc2d507f0a366353bdfcb7a73382f62a57adfba"                                                                                                                                                                
     else                                                                                                                                                                                                
       url "https://github.com/harshit9413/clauderig/releases/download/v#{version}/clauderig_#{version}_macos_x86_64.zip"                                                                                
-      sha256 "67fce4e1c9844e3151ae76f423ac346a529fb47b4662942a3724edd31a7bba9c"                                                                                                                                                                  
+      sha256 "42a452531a71dd755bc1f236ffc2d507f0a366353bdfcb7a73382f62a57adfba"                                                                                                                                                                  
     end
   end                                                                                                                                                                                                   
                                                           
